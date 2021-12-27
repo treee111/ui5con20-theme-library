@@ -5,6 +5,10 @@
 	"description": "UI5con Demo Theme Library",
 	"scripts": {},
 	"dependencies": {
-		"@ui5con20/library": "^1.0.0"
+		"@ui5con20/library": "file:../ui5con20-library"
+	},
+	"devDependencies": {
+		"@ui5/cli": "^2.14.2",
+		"eslint": "^8.5.0"
 	}
 }
